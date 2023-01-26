@@ -94,6 +94,11 @@ a li:hover {
   display: block;
 }
 
+.logo {
+  flex: 1;
+  padding: 15px 5px;
+}
+
 /* Tablet Menu */
 @media all and (min-width: 600px) {
   .menu {
@@ -102,12 +107,13 @@ a li:hover {
 
   .logo {
       flex: 1;
+      padding: 15px 40px;
   }
 
-  .toggle {
+  /* .toggle {
       flex: 1;
       text-align: right;
-  }
+  } */
 
   .toggle {
       order: 1;
